@@ -1,0 +1,18 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: 6defab48-dbc2-4ef9-8516-90d4770a8751
+  title: "Homework 3"
+  # description:
+  # keywords: []
+  authors: ["Alistair Clark", "Ligo Scientific Collaboration (LSC)"]
+  github: https://github.com/UCB-stat-159-f25/hw3-alistaircllark
+  # To autogenerate a Table of Contents, run "myst init --write-toc"
+  toc:
+    - file: README.md
+    - file: LOSC_Event_tutorial.ipynb
+site:
+  template: book-theme
+  # options:
+  #   favicon: favicon.ico
+  #   logo: site_logo.png

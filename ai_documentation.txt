@@ -1,0 +1,11 @@
+LLM of choice: Gemini Flash
+
+I used the prompt "make two simple tests" along with the readligo.py file to generate tests.
+After a couple of iterations plugging errors back into Gemini I got two passing tests.
+
+I once again used the same prompt to create tests for utils.py and troubleshooted with Gemini.
+
+Prompted for readme description: "Write a readme description"
+Output: This repository represents the advanced, fully modularized, and production-ready version of the computational pipeline for the LIGO Open Science Center (LOSC) data project.
+
+Building upon the initial data exploration in Homework 2, this iteration focuses on engineering excellence and robust deployment, transforming the project into a scalable and maintainable package.

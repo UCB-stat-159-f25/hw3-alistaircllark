@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools >= 70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ligotools"
+authors = "Ligo Scientific Collaboration (LSC) and Alistair Clark"
+
+description = "helpful stuff to keep on ligo-ing!!"
+readme = "README.md"
+
+requires-python = ">=3.9"
+dependencies = [
+    "tqdm",
+    "numpy=2.0",
+    "scipy=1.13",
+    "h5py=3.12",
+    "matplotlib=3.9",
+    "scipy=1.13",
+    "ipykernel=6.29"
+]
+
+dynamic = ["version"]
+
+[project.urls]
+Homepage = "https://github.com/UCB-stat-159-f25/hw3-alistaircllark"
+Issues = "https://github.com/UCB-stat-159-f25/hw3-alistaircllark/issues"
+
+[tool.setuptools]
+packages = ["ligotools"]
+
+[tool.setuptools.dynamic]
+version = {attr = "ligotools.__version__"}
